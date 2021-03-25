@@ -9,7 +9,6 @@
 html {
   font-size: 62.5%;
   box-sizing: inherit;
-  font-family: 'Open Sans', sans-serif;
 }
 
 .overlay {
@@ -65,4 +64,8 @@ html {
 
 .sub {
   font-size: 2.5rem;
+}
+
+.section {
+  padding: 10rem 0;
 }
