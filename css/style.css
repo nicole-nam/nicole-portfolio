@@ -69,3 +69,23 @@ html {
 .section {
   padding: 10rem 0;
 }
+
+.aboutImg {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.col-md-7 h2,
+.col-md-7 h3 {
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+.aboutMe {
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+.aboutMe span {
+  font-weight: 700;
+}
