@@ -7,7 +7,7 @@ $(document).ready(function () {
   });
 
   //TYPED JS
-  var typed = new Typed(".typed", {
+  const typed = new Typed(".typed", {
     strings: [
       "Frontend Web Developer.",
       "Food Connoisseur.",
@@ -19,21 +19,11 @@ $(document).ready(function () {
     showCursor: false,
   });
 
-  //OWL CAROUSEL
-  $(".owl-carousel").owlCarousel({
-    loop: true,
-    margin: 10,
-    nav: true,
-    responsive: {
-      0: {
-        items: 1,
-      },
-      600: {
-        items: 3,
-      },
-      1000: {
-        items: 5,
-      },
-    },
+  const skillsTopOffset = $(".skillsSection").offset();
+
+  $(window).scroll(function () {
+    if (window.pageYOffset > skillsTopOffset - $(window).height() + 200) {
+      console.log("here");
+    }
   });
 });
