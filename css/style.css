@@ -19,6 +19,10 @@ html {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+.slides-navigation {
+  z-index: 6;
+}
+
 .slides-navigation .prev,
 .slides-navigation .next {
   width: 5rem;
@@ -48,8 +52,16 @@ html {
   color: #fff;
 }
 
-.main {
+.title .heading p {
   text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
   font-weight: 100;
   letter-spacing: 7px;
+}
+
+.main {
+  font-size: 5rem;
+}
+
+.sub {
+  font-size: 2.5rem;
 }
