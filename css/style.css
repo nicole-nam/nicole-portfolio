@@ -11,6 +11,12 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  color: #333;
+  background-color: #dfe4ea;
+  letter-spacing: 1px;
+}
+
 .overlay {
   width: 100%;
   height: 100%;
@@ -71,7 +77,8 @@ html {
 }
 
 .aboutImg {
-  max-width: 100%;
+  max-width: 80%;
+  margin: 3rem;
   border-radius: 5px;
 }
 
@@ -88,4 +95,9 @@ html {
 
 .aboutMe span {
   font-weight: 700;
+}
+
+.skillsSection {
+  background-color: #cad3c8;
+  color: #fff;
 }
