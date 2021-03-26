@@ -171,3 +171,17 @@ body {
   text-align: center;
   z-index: 3;
 }
+
+.items .icons i {
+  color: #fff;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.items .icons a {
+  width: 4rem;
+  height: 4rem;
+  background-color: #4f556b;
+  position: relative;
+  display: inline-block;
+}
