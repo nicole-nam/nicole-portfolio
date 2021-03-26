@@ -109,6 +109,12 @@ body {
   height: 10rem;
 }
 
-#list{
+#list {
   opacity: 0;
+}
+
+.filter a {
+  color: #bdc3c7;
+  border: 1px solid #bdc3c7;
+  padding: 1.5rem;
 }
