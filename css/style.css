@@ -227,3 +227,7 @@ body {
 .items .item:hover img {
   transform: scale(1.15, 1.15);
 }
+
+.items {
+  padding: 0;
+}
