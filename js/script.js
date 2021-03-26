@@ -15,15 +15,15 @@ $(document).ready(function () {
     ],
     typeSpeed: 100,
     loop: true,
-    startDelay: 1000,
+    startDelay: 500,
     showCursor: false,
   });
 
-  const skillsTopOffset = $(".skillsSection").offset();
+  const aboutTopOffset = $("#about").offset().top;
 
   $(window).scroll(function () {
-    if (window.pageYOffset > skillsTopOffset - $(window).height() + 200) {
-      console.log("here");
+    if (window.pageYOffset > aboutTopOffset - $(window).height() + 450) {
+      $(".aboutBox").animate({ opacity: 1 }, 1000);
     }
   });
 });
