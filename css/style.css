@@ -81,7 +81,7 @@ body {
 }
 
 .skillsSection {
-  background-color: #cad3c8;
+  background-color: #4f556b;
   color: #fff;
 }
 
@@ -102,4 +102,9 @@ body {
 
 .skills-wrapper i {
   font-size: 6rem;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 10rem;
 }
