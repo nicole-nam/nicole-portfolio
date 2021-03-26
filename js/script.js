@@ -19,6 +19,7 @@ $(document).ready(function () {
     showCursor: false,
   });
 
+  //WINDO SCROLL ANIMATION
   const aboutTopOffset = $("#about").offset().top;
   const skillsTopOffset = $("#skills").offset().top;
 
@@ -31,5 +32,16 @@ $(document).ready(function () {
     }
   });
 
+  //FANCY BOX
   $("[data-fancybox]").fancybox();
+
+  //ISOTOPE
+  $(".items").isotope({
+    filter: "*",
+    animationOptions: {
+      durations: 1500,
+      easing: "linear",
+      queue: false,
+    },
+  });
 });

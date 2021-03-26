@@ -145,6 +145,29 @@ body {
   padding-bottom: 4rem;
 }
 
-.item img {
+.items li {
+  display: inline-block;
+  padding: 1rem;
+}
+
+.items li img {
   width: 100%;
+  border-radius: 5px;
+}
+
+.items .item {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.icons {
+  position: absolute;
+  width: 9rem;
+  height: 4rem;
+  left: 50%;
+  top: 50%;
+  margin: -2rem auto 0 -4rem;
+  text-align: center;
+  z-index: 3;
 }
