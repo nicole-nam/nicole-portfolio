@@ -116,5 +116,31 @@ body {
 .filter a {
   color: #bdc3c7;
   border: 1px solid #bdc3c7;
-  padding: 1.5rem;
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+  cursor: pointer;
+
+  display: block;
+}
+
+.filter li {
+  display: inline-block;
+  padding: 0.5rem;
+}
+
+.filter .current {
+  background-color: #4f556b;
+  border: #4f556b;
+  color: #fff;
+}
+
+.filter {
+  text-align: center;
+  width: 100%;
+}
+
+.section .heading {
+  text-align: center;
+  width: 100%;
+  padding-bottom: 4rem;
 }
