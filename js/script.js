@@ -30,4 +30,6 @@ $(document).ready(function () {
       $("#list").animate({ opacity: 1 }, 1500);
     }
   });
+
+  $("[data-fancybox]").fancybox();
 });

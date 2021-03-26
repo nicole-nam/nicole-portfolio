@@ -20,7 +20,11 @@
       integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
       crossorigin="anonymous"
     />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
+    />
+
     <title>Nicole Nam</title>
   </head>
   <body>
@@ -135,12 +139,39 @@
               <li><a href="#" data-filters=".design">Design</a></li>
             </ul>
           </div>
+
+          <div class="itemsContainer">
+            <ul class="items">
+              <li class="frontend col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img
+                    src="/img/portfolio/thumbnails/looop-square.png"
+                    alt="loop studio thumbnail image"
+                  />
+                  <div class="icons">
+                    <a
+                      href="/img/portfolio/loopstudio.jpg"
+                      title=" View Image"
+                      class="openBtn"
+                      alt="full loop studio image"
+                      data-fancybox data-caption="Loop Studio Landing Page"
+                      ><i class="fa fa-search"></i
+                    ></a>
+                    <a href="" target="_blank" class="projectLink"
+                      ><i class="fa fa-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
 
     <!-- PORTFOLIO SECTION  ENDS-->
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     <script src="js/jquery.superslides.min.js"></script>
     <script src="js/typed.min.js"></script>
     <script
