@@ -181,7 +181,6 @@ body {
 .items .icons a {
   width: 4rem;
   height: 4rem;
-  background-color: #4f556b;
   position: relative;
   display: inline-block;
 }
@@ -196,9 +195,29 @@ body {
   top: 0;
   opacity: 0;
 
-  transition: all .2s linear, 1s;
+  transition: all 0.2s linear, 1s;
 }
 
-.items .item:hover  .imageOverlay {
+.items .item:hover .imageOverlay {
   opacity: 1;
+}
+
+.items .openBtn {
+  float: left;
+  left: -20rem;
+  transition: all 0.2s linear, 0.2s;
+}
+
+.items .projectLink {
+  float: right;
+  right: -20rem;
+  transition: all 0.2s linear, 0.2s;
+}
+
+.items .item:hover .openBtn {
+  left: 0px;
+}
+
+.items .item:hover .projectLink {
+  right: 0px;
 }
