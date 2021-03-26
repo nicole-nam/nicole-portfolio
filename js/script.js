@@ -20,10 +20,14 @@ $(document).ready(function () {
   });
 
   const aboutTopOffset = $("#about").offset().top;
+  const skillsTopOffset = $("#skills").offset().top;
 
   $(window).scroll(function () {
-    if (window.pageYOffset > aboutTopOffset - $(window).height() + 450) {
+    if (window.pageYOffset > aboutTopOffset - $(window).height() + 400) {
       $(".aboutBox").animate({ opacity: 1 }, 1000);
+    }
+    if (window.pageYOffset > skillsTopOffset - $(window).height() + 400) {
+      $("#list").animate({ opacity: 1 }, 1500);
     }
   });
 });
