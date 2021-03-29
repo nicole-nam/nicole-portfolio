@@ -258,3 +258,7 @@ x .slides-navigation .prev,
 .navbar-brand:hover {
   color: #fff;
 }
+
+.navbar-toggler-icon {
+  background-image: url(../img/icons/menu.png);
+}
