@@ -61,4 +61,14 @@ $(document).ready(function () {
     });
     return false;
   });
+
+  // $(".main").hover(
+  //   function () {
+  //     console.log("hi");
+  //     $(".down").addClass(".arrow");
+  //   },
+  //   function () {
+  //     $(this).removeClass("hover");
+  //   }
+  // );
 });
