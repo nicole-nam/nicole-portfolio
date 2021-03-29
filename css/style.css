@@ -230,6 +230,10 @@ x .slides-navigation .prev,
   padding: 0;
 }
 
+.item {
+  box-shadow: 2px 2px 15px #4f556b70;
+}
+
 .copyrightSection {
   background-color: #4f556b;
   color: #fff;
@@ -250,11 +254,13 @@ x .slides-navigation .prev,
 
 #navigation li a {
   color: #fff;
+  font-size: 1.2rem;
 }
 
 .navbar-brand {
   color: #fff;
   font-weight: bolder;
+  font-size: 2rem;
 }
 
 .navbar-brand:hover {
@@ -268,11 +274,7 @@ x .slides-navigation .prev,
 .fixedNav #navigation {
   position: fixed;
   top: 0;
-}
-
-.fixedNav #navigation {
-  position: fixed;
-  top: 0;
+  opacity: 0.6;
 }
 
 .loader {

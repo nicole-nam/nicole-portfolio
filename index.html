@@ -85,10 +85,10 @@
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Skills</a>
+            <a class="nav-link" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
+            <a class="nav-link" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Contact</a>
@@ -146,8 +146,8 @@
           <div class="col-md-12 text-center">
             <h2>TECHNICAL SKILLS</h2>
             <p>
-              I’m a well rounded developer with an impressive mix of
-              organizational, creative, technical and interpersonal skills.
+              I’m a well rounded developer with a mix of organizational,
+              technical, creative skills with a love for design.
             </p>
           </div>
           <ul id="list" class="skills-wrapper">
@@ -185,7 +185,7 @@
             <ul id="filters">
               <li><a href="#" data-filter="*" class="current">ALL</a></li>
               <li><a href="#" data-filter=".frontend">Front End</a></li>
-              <li><a href="#" data-filter=".wordpress">Wordpress</a></li>
+              <!-- <li><a href="#" data-filter=".wordpress">Wordpress</a></li> -->
               <li><a href="#" data-filter=".design">Design</a></li>
             </ul>
           </div>
@@ -353,6 +353,29 @@
                   <div class="imageOverlay"></div>
                 </div>
               </li>
+              <li class="design col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img
+                    src="/img/portfolio/thumbnails/grazewish2-square.png"
+                    alt="loop studio thumbnail image"
+                  />
+                  <div class="icons">
+                    <a
+                      href="/img/portfolio/grazewish.png"
+                      title=" View Image"
+                      class="openBtn"
+                      alt="full loop studio image"
+                      data-fancybox
+                      data-caption="Graze Wish Catering Postcard"
+                      ><i class="fa fa-search"></i
+                    ></a>
+                    <a href="" target="_blank" class="projectLink"
+                      ><i class="fa fa-link"></i
+                    ></a>
+                  </div>
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
             </ul>
           </div>
         </div>
@@ -360,6 +383,51 @@
     </div>
 
     <!-- PORTFOLIO SECTION  ENDS-->
+
+    <!-- CONTACT SECTION BEGINS  -->
+
+    <div class="contact">
+      <div class="col-md-12 text-center">
+        <div class="heading">
+          <h2>CONTACT</h2>
+        </div>
+        <form
+          id="fs-frm"
+          name="simple-contact-form"
+          accept-charset="utf-8"
+          action="https://formspree.io/f/{form_id}"
+          method="post"
+        >
+          <fieldset id="fs-frm-inputs">
+            <label for="full-name">Full Name</label>
+            <input
+              type="text"
+              name="name"
+              id="full-name"
+              placeholder="First and Last"
+              required=""
+            />
+            <label for="message">Message</label>
+            <textarea
+              rows="5"
+              name="message"
+              id="message"
+              placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus."
+              required=""
+            ></textarea>
+            <input
+              type="hidden"
+              name="_subject"
+              id="email-subject"
+              value="Contact Form Submission"
+            />
+          </fieldset>
+          <input type="submit" value="Send" />
+        </form>
+      </div>
+    </div>
+
+    <!-- CONTACT SECTION ENDS  -->
 
     <!-- COPYRIGHT SECTION BEGINS  -->
     <div class="copyrightSection">
