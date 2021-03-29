@@ -56,7 +56,7 @@ x .slides-navigation .prev,
 }
 
 .aboutImg {
-  max-width: 80%;
+  max-width: 100%;
   border-radius: 5px;
 }
 
@@ -253,6 +253,7 @@ x .slides-navigation .prev,
 
 .navbar-brand {
   color: #fff;
+  font-weight: bolder;
 }
 
 .navbar-brand:hover {
@@ -261,4 +262,14 @@ x .slides-navigation .prev,
 
 .navbar-toggler-icon {
   background-image: url(../img/icons/menu.png);
+}
+
+.fixedNav #navigation {
+  position: fixed;
+  top: 0;
+}
+
+.fixedNav #navigation {
+  position: fixed;
+  top: 0;
 }

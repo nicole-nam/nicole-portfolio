@@ -65,4 +65,20 @@ $(document).ready(function () {
   //COPYRIGHT DATE
   const d = new Date();
   $("#copyright").append(d.getFullYear());
+
+  //STICKY NAVIGATION
+  const nav = $("#navigation");
+  const navTop = nav.offset().top;
+
+  $(window).on("scroll", stickyNav);
+
+  function stickyNav() {
+    const body = $("body");
+
+    if ($(window).scrollTop() >= navTop) {
+      body.addClass("fixedNav");
+    } else {
+      body.removeClass("fixedNav");
+    }
+  }
 });
