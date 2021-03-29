@@ -236,3 +236,9 @@ x .slides-navigation .prev,
 .items {
   padding: 0;
 }
+
+.copyrightSection {
+  background-color: #4f556b;
+  color: #fff;
+  padding: 3rem 0.5rem;
+}
