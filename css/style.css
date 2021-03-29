@@ -58,13 +58,6 @@ x .slides-navigation .prev,
 .aboutImg {
   max-width: 80%;
   border-radius: 5px;
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
-  transition: all 0.2s ease-in-out;
-}
-
-#about:hover .aboutImg {
-  filter: none;
 }
 
 .col-md-7 h2,
@@ -258,10 +251,10 @@ x .slides-navigation .prev,
   color: #fff;
 }
 
-.navbar-brand{
+.navbar-brand {
   color: #fff;
 }
 
-.navbar-brand:hover{
+.navbar-brand:hover {
   color: #fff;
 }
