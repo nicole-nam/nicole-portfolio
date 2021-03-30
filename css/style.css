@@ -118,7 +118,8 @@ body {
   font-size: 1.2rem;
 }
 
-.skillsSection {
+.skillsSection,
+.contactSection {
   background-color: #4f556b;
   color: #fff;
 }
@@ -374,7 +375,7 @@ fieldset {
 
 .formBtn {
   margin-top: 2rem;
-  padding: 0.5rem 3rem;
+  padding: 1.2rem 5rem;
   color: white;
   background-color: #4f556b;
   border: 1px solid #4f556b;
@@ -390,6 +391,21 @@ form #message {
   resize: none;
 }
 
-.contact .icons {
+.contactIcons {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   list-style: none;
+  align-items: flex-end;
+}
+
+.contactIcon {
+  font-size: 4rem;
+  color: #4f556b;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.contactIcon:hover {
+  opacity: 1;
 }
