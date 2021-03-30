@@ -66,20 +66,32 @@ body {
   border-radius: 5px;
 }
 
-.cvBtn {
-  background-color: #4f556b;
-  color: #fff;
-  margin-top: 2rem;
-  padding: 1rem 4rem;
-  border: 1px solid #4f556b;
-  border-radius: 2px;
-  font-size: 1.2rem;
+.aboutInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.cvBtn:hover {
+#cvBtn {
+  background-color: #4f556b;
+  color: #fff;
+  padding: 1rem 4rem;
+  border: 1px solid #4f556b;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  width: 30%;
+  cursor: pointer;
+}
+
+#cvBtn:hover {
   border: 1px solid #4f556b;
   background-color: #fff;
   color: #4f556b;
+}
+
+#cvBtn:focus {
+  outline: none;
 }
 
 .col-md-7 h2,
