@@ -132,6 +132,11 @@ body {
   display: block;
 }
 
+.filter a:hover {
+  text-decoration: none;
+  color: #bdc3c7;
+}
+
 .filter li {
   display: inline-block;
   padding: 0.5rem;
@@ -140,7 +145,7 @@ body {
 .filter .current {
   background-color: #4f556b;
   border: #4f556b;
-  color: #fff;
+  color: #bdc3c7;
 }
 
 .filter {
@@ -155,9 +160,12 @@ body {
 }
 
 .items li {
-  display: inline-block;
-  padding: 1rem;
-  cursor: pointer;
+	display: inline-block;
+	padding: 5px;
+}
+
+.itemsContainer {
+	width: 100%;
 }
 
 .items li img {
@@ -276,6 +284,10 @@ body {
 
 .navbar-brand:hover {
   color: #fff;
+}
+
+.navbar-collapse {
+  text-align: center;
 }
 
 #navigation .navbar-toggler-icon {

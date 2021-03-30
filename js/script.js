@@ -46,7 +46,7 @@ $(document).ready(function () {
   $(".items").isotope({
     filter: "*",
     animationOptions: {
-      durations: 1500,
+      transitionDuration: "0.8s",
       easing: "linear",
       queue: false,
     },
@@ -56,16 +56,16 @@ $(document).ready(function () {
     $("#filters .current").removeClass("current");
     $(this).addClass("current");
 
-    const selector = $(this).attr("data-filter");
-
+    var selector = $(this).attr("data-filter");
     $(".items").isotope({
       filter: selector,
       animationOptions: {
-        durations: 1500,
+        transitionDuration: "0.8s",
         easing: "linear",
         queue: false,
       },
     });
+
     return false;
   });
 

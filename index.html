@@ -3,26 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link rel="stylesheet" href="./css/superslides.css" />
-
+    <!--Super slides css-->
+    <link rel="stylesheet" href="css/superslides.css" />
+    <!--BootStrap-->
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
     />
-
+    <!--Font Awesome icons-->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+      integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+      crossorigin="anonymous"
     />
-
+    <!--Fancy plugin CSS-->
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.10.1/devicon.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css"
     />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-
+    <!--Main style css-->
     <link rel="stylesheet" href="/css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <title>Nicole Nam</title>
 
@@ -133,6 +138,7 @@
               voluptas, error, sequi cupiditate itaque corrupti repudiandae
               doloremque aperiam numquam fuga perspiciatis. Autem!
             </p>
+            <button>Download CV</button>
           </div>
         </div>
       </div>
@@ -175,8 +181,7 @@
     <!-- SKILLS SECTION ENDS  -->
 
     <!-- PORTFOLIO SECTION BEGINS  -->
-
-    <div id="portfolio" class="section">
+    <div id="portfolio" class="portfolio section">
       <div class="container">
         <div class="row">
           <div class="heading">
@@ -185,196 +190,80 @@
           <div class="filter">
             <ul id="filters">
               <li><a href="#" data-filter="*" class="current">ALL</a></li>
-              <li><a href="#" data-filter=".frontend">Front End</a></li>
-              <!-- <li><a href="#" data-filter=".wordpress">Wordpress</a></li> -->
-              <li><a href="#" data-filter=".design">Design</a></li>
+              <li>
+                <a href="#" data-filter=".frontend">Frontend</a>
+              </li>
+              <li>
+                <a href="#" data-filter=".wordpress">Wordpress</a>
+              </li>
+              <li>
+                <a href="#" data-filter=".design">Design</a>
+              </li>
             </ul>
           </div>
-
           <div class="itemsContainer">
             <ul class="items">
               <li class="frontend col-xs-6 col-sm-4 col-md-3 col-lg-3">
                 <div class="item">
                   <img
                     src="/img/portfolio/thumbnails/loop-square.png"
-                    alt="loop studio thumbnail image"
+                    alt="loop studio"
                   />
                   <div class="icons">
                     <a
-                      href="/img/portfolio/loopstudio.jpg"
-                      title=" View Image"
+                      href="img/portfolio/loopstudio.jpg"
+                      title="View image"
                       class="openBtn"
-                      alt="full loop studio image"
                       data-fancybox
-                      data-caption="Loop Studio Landing Page"
+                      data-caption="This is loopstudio landing page"
                       ><i class="fa fa-search"></i
                     ></a>
-                    <a href="" target="_blank" class="projectLink"
+                    <a href="#" target="_blank" class="projectLink"
                       ><i class="fa fa-link"></i
                     ></a>
                   </div>
-                  <div class="imageOverlay"></div>
                 </div>
               </li>
-              <li class="frontend col-xs-6 col-sm-4 col-md-3 col-lg-3">
-                <div class="item">
-                  <img
-                    src="/img/portfolio/thumbnails/insure-square.png"
-                    alt="insure thumbnail image"
-                  />
-                  <div class="icons">
-                    <a
-                      href="/img/portfolio/loopstudio.jpg"
-                      title=" View Image"
-                      class="openBtn"
-                      alt="image"
-                      data-fancybox
-                      data-caption="Loop Studio Landing Page"
-                      ><i class="fa fa-search"></i
-                    ></a>
-                    <a href="" target="_blank" class="projectLink"
-                      ><i class="fa fa-link"></i
-                    ></a>
-                  </div>
-                  <div class="imageOverlay"></div>
-                </div>
-              </li>
-              <li class="frontend col-xs-6 col-sm-4 col-md-3 col-lg-3">
-                <div class="item">
-                  <img
-                    src="/img/portfolio/thumbnails/random-square.png"
-                    alt="loop studio thumbnail image"
-                  />
-                  <div class="icons">
-                    <a
-                      href="/img/portfolio/loopstudio.jpg"
-                      title=" View Image"
-                      class="openBtn"
-                      alt="full loop studio image"
-                      data-fancybox
-                      data-caption="Loop Studio Landing Page"
-                      ><i class="fa fa-search"></i
-                    ></a>
-                    <a href="" target="_blank" class="projectLink"
-                      ><i class="fa fa-link"></i
-                    ></a>
-                  </div>
-                  <div class="imageOverlay"></div>
-                </div>
-              </li>
-              <li class="frontend col-xs-6 col-sm-4 col-md-3 col-lg-3">
-                <div class="item">
-                  <img
-                    src="/img/portfolio/thumbnails/countries-square.png"
-                    alt="loop studio thumbnail image"
-                  />
-                  <div class="icons">
-                    <a
-                      href="/img/portfolio/loopstudio.jpg"
-                      title=" View Image"
-                      class="openBtn"
-                      alt="full loop studio image"
-                      data-fancybox
-                      data-caption="Loop Studio Landing Page"
-                      ><i class="fa fa-search"></i
-                    ></a>
-                    <a href="" target="_blank" class="projectLink"
-                      ><i class="fa fa-link"></i
-                    ></a>
-                  </div>
-                  <div class="imageOverlay"></div>
-                </div>
-              </li>
-              <li class="frontend col-xs-6 col-sm-4 col-md-3 col-lg-3">
-                <div class="item">
-                  <img
-                    src="/img/portfolio/thumbnails/weather-square.png"
-                    alt="weather app thumbnail image"
-                  />
-                  <div class="icons">
-                    <a
-                      href="/img/portfolio/loopstudio.jpg"
-                      title=" View Image"
-                      class="openBtn"
-                      alt="full loop studio image"
-                      data-fancybox
-                      data-caption="Loop Studio Landing Page"
-                      ><i class="fa fa-search"></i
-                    ></a>
-                    <a href="" target="_blank" class="projectLink"
-                      ><i class="fa fa-link"></i
-                    ></a>
-                  </div>
-                  <div class="imageOverlay"></div>
-                </div>
-              </li>
-              <li class="frontend col-xs-6 col-sm-4 col-md-3 col-lg-3">
-                <div class="item">
-                  <img
-                    src="/img/portfolio/thumbnails/keeper-square.png"
-                    alt="loop studio thumbnail image"
-                  />
-                  <div class="icons">
-                    <a
-                      href="/img/portfolio/loopstudio.jpg"
-                      title=" View Image"
-                      class="openBtn"
-                      alt="full loop studio image"
-                      data-fancybox
-                      data-caption="Loop Studio Landing Page"
-                      ><i class="fa fa-search"></i
-                    ></a>
-                    <a href="" target="_blank" class="projectLink"
-                      ><i class="fa fa-link"></i
-                    ></a>
-                  </div>
-                  <div class="imageOverlay"></div>
-                </div>
-              </li>
-              <li class="frontend col-xs-6 col-sm-4 col-md-3 col-lg-3">
+              <li class="wordpress col-xs-6 col-sm-4 col-md-3 col-lg-3">
                 <div class="item">
                   <img
                     src="/img/portfolio/thumbnails/loop-square.png"
-                    alt="loop studio thumbnail image"
+                    alt="loop studio"
                   />
                   <div class="icons">
                     <a
-                      href="/img/portfolio/loopstudio.jpg"
-                      title=" View Image"
+                      href="img/portfolio/loopstudio.jpg"
+                      title="View image"
                       class="openBtn"
-                      alt="full loop studio image"
                       data-fancybox
-                      data-caption="Loop Studio Landing Page"
+                      data-caption="This is loopstudio landing page"
                       ><i class="fa fa-search"></i
                     ></a>
-                    <a href="" target="_blank" class="projectLink"
+                    <a href="#" target="_blank" class="projectLink"
                       ><i class="fa fa-link"></i
                     ></a>
                   </div>
-                  <div class="imageOverlay"></div>
                 </div>
               </li>
               <li class="design col-xs-6 col-sm-4 col-md-3 col-lg-3">
                 <div class="item">
                   <img
-                    src="/img/portfolio/thumbnails/grazewish2-square.png"
-                    alt="loop studio thumbnail image"
+                    src="/img/portfolio/thumbnails/loop-square.png"
+                    alt="loop studio"
                   />
                   <div class="icons">
                     <a
-                      href="/img/portfolio/grazewish.png"
-                      title=" View Image"
+                      href="img/portfolio/loopstudio.jpg"
+                      title="View image"
                       class="openBtn"
-                      alt="full loop studio image"
                       data-fancybox
-                      data-caption="Graze Wish Catering Postcard"
+                      data-caption="This is loopstudio landing page"
                       ><i class="fa fa-search"></i
                     ></a>
-                    <a href="" target="_blank" class="projectLink"
+                    <a href="#" target="_blank" class="projectLink"
                       ><i class="fa fa-link"></i
                     ></a>
                   </div>
-                  <div class="imageOverlay"></div>
                 </div>
               </li>
             </ul>
@@ -439,28 +328,29 @@
     </div>
 
     <!-- COPYRIGHT SECTION ENDS  -->
-    <script src="js/jquery.superslides.min.js"></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-    <script
-      src="https://kit.fontawesome.com/d8482cd430.js"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
-      integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"
-    ></script>
 
+    <!--JavaScript files-->
+    <!--Super slides-->
+    <script src="js/jquery.superslides.min.js"></script>
+    <!--Typed js-->
     <script src="js/typed.min.js"></script>
+    <!--Poper.js-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <!--Bootstrap JS files-->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+    <!--Isotope JS-->
+    <script src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+    <!--Fancy JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+    <!--My JS file-->
     <script src="js/script.js"></script>
   </body>
 </html>
