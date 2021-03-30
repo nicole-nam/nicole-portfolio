@@ -9,6 +9,7 @@
 html {
   font-size: 62.5%;
   box-sizing: inherit;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -34,7 +35,6 @@ body {
   text-align: center;
   margin-top: -15rem;
   color: #fff;
-  cursor: pointer;
 }
 
 .main {
@@ -46,6 +46,10 @@ body {
   font-weight: 700;
   font-size: 3rem;
   padding-bottom: 3rem;
+}
+
+.downArrow {
+  cursor: pointer;
 }
 
 .section {
@@ -274,8 +278,12 @@ body {
   color: #fff;
 }
 
-.navbar-toggler-icon {
+#navigation .navbar-toggler-icon {
   background-image: url(../img/icons/menu.png);
+}
+
+.navbar-toggler:focus {
+  outline: none;
 }
 
 .fixedNav #navigation {
@@ -312,4 +320,31 @@ fieldset {
 
 .contact .heading span {
   font-weight: bolder;
+}
+
+.contact form {
+  text-align: left;
+  margin-bottom: 10rem;
+}
+
+.contact form label {
+  padding-top: 2rem;
+}
+
+.formBtn {
+  margin-top: 2rem;
+  padding: 0.5rem 3rem;
+  color: white;
+  background-color: #4f556b;
+  border: 1px solid #4f556b;
+}
+
+.formBtn:hover {
+  background-color: #fff;
+  color: #4f556b;
+  border: 1px solid #4f556b;
+}
+
+form #message {
+  resize: none;
 }
