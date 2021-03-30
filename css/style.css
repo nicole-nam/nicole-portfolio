@@ -45,6 +45,7 @@ body {
 .sub {
   font-weight: 700;
   font-size: 3rem;
+  padding-bottom: 3rem;
 }
 
 .section {
@@ -303,4 +304,12 @@ fieldset {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.contact .heading p {
+  font-size: 1.2rem;
+}
+
+.contact .heading span {
+  font-weight: bolder;
 }

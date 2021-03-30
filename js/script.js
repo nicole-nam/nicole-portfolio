@@ -23,6 +23,7 @@ $(document).ready(function () {
     loop: true,
     startDelay: 500,
     showCursor: false,
+    smartBackspace: true,
   });
 
   //WINDO SCROLL ANIMATION
