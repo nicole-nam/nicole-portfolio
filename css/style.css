@@ -77,12 +77,14 @@ body {
   color: #fff;
   padding: 1rem 4rem;
   border: 1px solid #4f556b;
-  border-radius: 5px;
+  border-radius: 2px;
   font-size: 1.2rem;
   text-decoration: none;
   width: 40%;
   text-align: center;
   cursor: pointer;
+
+  transition: all 0.3s ease-in-out;
 }
 
 #cvBtn:hover {
@@ -391,21 +393,18 @@ form #message {
   resize: none;
 }
 
-.contactIcons {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  list-style: none;
-  align-items: flex-end;
+.contactBtn {
+  color: #fff;
+  padding: 1.5rem 2rem;
+  display: inline-block;
+  margin-top: 2rem;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  transition: all 0.3s ease-in-out;
 }
 
-.contactIcon {
-  font-size: 4rem;
+.contactBtn:hover {
+  text-decoration: none;
   color: #4f556b;
-  opacity: 0.5;
-  cursor: pointer;
-}
-
-.contactIcon:hover {
-  opacity: 1;
+  background-color: #fff;
 }
