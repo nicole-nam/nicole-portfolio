@@ -286,8 +286,8 @@ body {
 }
 
 .copyrightSection {
-  background-color: #4f556b;
-  color: #fff;
+  background-color: #fff;
+  color: #4f556b;
   padding: 3rem 0.5rem;
   font-size: 1.2rem;
 }
@@ -311,7 +311,6 @@ body {
 .navbar-brand {
   color: #fff;
   font-weight: bolder;
-  font-size: 2rem;
 }
 
 .navbar-brand:hover {
@@ -407,4 +406,26 @@ form #message {
   text-decoration: none;
   color: #4f556b;
   background-color: #fff;
+}
+
+.contactIcons {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.contactIcon {
+  font-size: 3rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: all 0.2s ease-in-out;
+}
+
+.contactIcon:hover {
+  opacity: 1;
+}
+
+.contactIcon:not(:last-child) {
+  margin-right: 2rem;
 }
