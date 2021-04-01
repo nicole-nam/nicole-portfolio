@@ -73,7 +73,12 @@ body {
   justify-content: space-between;
 }
 
+#hightlight {
+  font-style: italic;
+}
+
 #cvBtn {
+  margin-top: 1rem;
   background-color: #4f556b;
   color: #fff;
   padding: 1rem 4rem;
