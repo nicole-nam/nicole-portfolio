@@ -24,7 +24,7 @@ $(document).ready(function () {
   //TYPED JS
   const typed = new Typed(".typed", {
     strings: [
-      "Frontend Web Developer/ Designer.",
+      "Frontend Web Developer.",
       "Food Connoisseur.",
       "Philomath (/ˈfɪləmæθ/) a lover of learning.",
     ],
