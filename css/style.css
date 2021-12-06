@@ -491,3 +491,28 @@ form #message {
   margin: 20px auto;
   text-align: left;
 }
+
+.sendBtn {
+  margin-top: 1rem;
+  background-color: #fff;
+  color: #4f556b;
+  padding: 1rem 4rem;
+  border: 1px solid #4f556b;
+  border-radius: 2px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.sendBtn:hover {
+  border: 1px solid #fff;
+  background-color: #4f556b;
+  color: #fff;
+}
+
+.sendBtn:focus {
+  outline: none;
+}
