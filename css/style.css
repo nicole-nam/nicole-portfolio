@@ -483,3 +483,11 @@ form #message {
 .contactIcon:not(:last-child) {
   margin-right: 2rem;
 }
+
+.contact-me {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 20px auto;
+  text-align: left;
+}
